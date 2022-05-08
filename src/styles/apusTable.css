@@ -1,0 +1,66 @@
+table.apus-table {
+    width: 100%;
+    border-spacing: 0px;
+    border-top: 1px solid var(--outline);
+    border-left: 1px solid var(--outline);
+    border-right: 1px solid var(--outline);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+table.apus-table thead {}
+
+table.apus-table thead tr {
+    border-top-right-radius: 6px;
+
+}
+
+table.apus-table thead tr th {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-1);
+    margin: 0px 25px;
+    vertical-align: middle;
+    text-align: left;
+    background-color: var(--background-1);
+    height: 50px;
+    border-bottom: 1px solid var(--outline);
+    white-space: nowrap;
+}
+
+table.apus-table thead tr th:first-child {
+    border-top-left-radius: 6px;
+}
+
+table.apus-table thead tr th:last-child {
+    border-top-right-radius: 6px;
+}
+
+table.apus-table tbody {}
+
+table.apus-table tbody tr {}
+
+table.apus-table tbody tr td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-1);
+    border-bottom: 1px solid var(--outline);
+    white-space: nowrap;
+    padding: 10px 25px 10px 0;
+    text-align: justify;
+}
+
+table.apus-table tbody tr td button {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0px 8px;
+    min-height: 50px;
+}

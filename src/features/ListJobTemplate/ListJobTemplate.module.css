@@ -1,0 +1,41 @@
+.wrapperCheckbox {
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.columnCheckbox {
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    margin: 0 !important;
+}
+
+.columnAdd {
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+}
+
+.columnAdd > div{
+    margin: 0 !important;
+}
+
+.columnCheckbox > div{
+    margin: 0 !important;
+}
+
+.wrapperAdd {
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapText{
+    word-wrap: break-word;
+    white-space: normal;
+}

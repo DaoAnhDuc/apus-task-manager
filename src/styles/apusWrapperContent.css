@@ -1,0 +1,34 @@
+.apus-wrapper-content {
+    width: 100%;
+    height: 100%;
+    min-height: 914px;
+    border-radius: 6px;
+    border: 1px solid var(--outline);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+.apus-wrapper-content .apus-header {
+    display: flex;
+    border-bottom: 1px solid #DFE0EB;
+    min-height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 27px;
+}
+
+.apus-wrapper-content .apus-header .apus-header-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--text-1);
+}
+
+.apus-wrapper-content .apus-main {
+    flex: 1;
+    padding: 27px;
+}

@@ -1,0 +1,48 @@
+.apus-home-page {
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+    /* background-color: #fff; */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.apus-home-container {
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1440px; */
+    height: 100%;
+    background-color: #fff;
+}
+
+.apus-home-header {
+    width: 100%;
+    height: 60px;
+}
+
+.apus-home-main {
+    width: 100%;
+    background: var(--background-1);
+    display: flex;
+}
+
+.apus-home-sider {
+    width: 96px;
+    box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.08);
+    background: var(--background-1);
+}
+
+.apus-home-content {
+    width: calc(100% - 96px);
+    padding: 30px;
+}
+
+.copyright {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #A1A2A3;
+}
